@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sb12_findex_team1
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/findex
+    username: findex_user
+    password: findex1234
+    driver-class-name: org.postgresql.Driver

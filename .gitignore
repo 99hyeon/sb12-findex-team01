@@ -1,0 +1,101 @@
+# =========================
+# Build / Gradle
+# =========================
+.gradle/
+build/
+out/
+
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# =========================
+# IDE - IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# IDE - STS / Eclipse
+# =========================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# =========================
+# IDE - NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# IDE - VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS - macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# iCloud
+*.icloud
+
+# =========================
+# OS - Windows
+# =========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+*.stackdump
+
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+*.lnk
+
+# =========================
+# Misc
+# =========================
+HELP.md
